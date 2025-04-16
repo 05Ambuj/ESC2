@@ -10,7 +10,7 @@ const UserPage = () => {
         <Link href="/">
           <Image path="icons/back.svg" alt="back" w={24} h={24} />
         </Link>
-        <h1 className="font-bold text-lg">Lama Dev</h1>
+        <h1 className="font-bold text-lg">Dmitri</h1>
       </div>
       {/* INFO */}
       <div className="">
@@ -43,10 +43,10 @@ const UserPage = () => {
         <div className="p-4 flex flex-col gap-2">
           {/* USERNAME & HANDLE */}
           <div className="">
-            <h1 className="text-2xl font-bold">Lama Dev</h1>
-            <span className="text-textGray text-sm">@lamaWebDev</span>
+            <h1 className="text-2xl font-bold">Dmitri</h1>
+            <span className="text-textGray text-sm">@Dmitri</span>
           </div>
-          <p>Lama Dev Youtube Channel</p>
+          <p>Escapo Developer</p>
           {/* JOB & LOCATION & DATE */}
           <div className="flex gap-4 text-textGray text-[15px]">
             <div className="flex items-center gap-2">
@@ -56,21 +56,21 @@ const UserPage = () => {
                 w={20}
                 h={20}
               />
-              <span>USA</span>
+              <span>India</span>
             </div>
             <div className="flex items-center gap-2">
               <Image path="icons/date.svg" alt="date" w={20} h={20} />
-              <span>Joined May 2021</span>
+              <span>Joined March 2025</span>
             </div>
           </div>
           {/* FOLLOWINGS & FOLLOWERS */}
           <div className="flex gap-4">
             <div className="flex items-center gap-2">
-              <span className="font-bold">100</span>
+              <span className="font-bold">1</span>
               <span className="text-textGray text-[15px]">Followers</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="font-bold">100</span>
+              <span className="font-bold">101</span>
               <span className="text-textGray text-[15px]">Followings</span>
             </div>
           </div>
